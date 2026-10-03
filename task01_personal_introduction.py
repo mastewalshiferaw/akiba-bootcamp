@@ -10,7 +10,7 @@ print ("="*35)
 print("    STUDENT INTRODUCTION")
 print ("="*35)
 
-print(f"My name is {name}.\n I am {age} years old. \nI live in {city}. ")
+print(f"My name is {name}.\nI am {age} years old. \nI live in {city}. ")
 print(f"I study {department} at {university}.")
 print(f"My favorite programming language is {language}.")
 print("\nMy programming goal:")
