@@ -1,0 +1,16 @@
+c_name = input("Customer Name: ")
+p_name = input("Product Name: ")
+Price = float(input("Price: "))
+Quan = int(input("Quantity: "))
+total = Price * Quan
+print("="*50)
+print("              RECEIPT")
+print("="*50)
+
+print(f"Customer: {c_name}")
+print(f"{'Product':<14}{'Price':<12}{'Qty':>9}")
+print("-" * 40)
+print(f"{p_name:<14}{Price:<4} ETB{Quan:>9}")
+print(f"\nTotal:{total:>12} ETB\n")
+print("Thank you for shopping!")
+print("="*50)
