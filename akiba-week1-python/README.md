@@ -30,5 +30,4 @@ I learned the fundamentals of Python programming.
 starting from assigning varibles after accepting user input to 
 displaying information as required
 I practiced and worked on different tasks that contains topics of variables, data types, input, output, arithmetic
-operators, and formatted output.
-*
+operators, and formatted output.*
