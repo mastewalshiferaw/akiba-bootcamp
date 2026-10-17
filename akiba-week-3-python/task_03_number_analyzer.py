@@ -1,17 +1,3 @@
-'''Implement these functions:
-
-
-reverse_number(number) — return the reversed number.
-analyze_number(number) — return a complete analysis.
-For an input of 123, the analysis should include:
-Whether the number is even or odd.
-Whether it is prime.
-The sum of its digits.
-Its reversed value.
-Its divisors.
-Challenge: Handle zero and negative numbers appropriately, explaining the chosen behavior.
-'''
-
 def is_prime(number):
     if number<1:
         return f"NOT PRIME (Number can't be bellow 1)"
@@ -60,12 +46,12 @@ def reverse_number(number):
           last_digit=number % 10       
 
       
-          reversedNum=num_reversed *10 +last_digit     
+          num_reversed=num_reversed *10 +last_digit     
 
     
           number=number // 10     
 
-      return reversedNum                      
+      return num_reversed                     
 
      
 
