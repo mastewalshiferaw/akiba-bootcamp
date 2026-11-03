@@ -46,3 +46,22 @@ if __name__ == "__main__":
         print(account.__balance)
     except AttributeError as e:
         print(f"\nEncapsulation check: Cannot access '__balance' directly ({e}).")
+
+
+"""
+What is encapsulation?
+Encapsulation is the OOP concept of bundling data (attributes) and methods that operate on that data inside a single unit (class), while restricting direct outside access to internal details.
+
+Why do we use private attributes?
+To protect sensitive data from accidental modification, prevent unwanted direct access from outside the class, and enforce validation rules via methods.
+
+What is name mangling in Python?
+It is Python’s automatic mechanism that renames an attribute with two leading underscores (e.g., __balance) to _ClassName__balance internally, preventing name clashes in subclasses and accidental direct access.
+
+Difference between public, protected, and private naming conventions:
+Public (name): Accessible from anywhere (inside and outside the class).
+
+Protected (_name): Single leading underscore; a developer convention meaning "intended for internal and subclass use only" (not enforced by Python).
+
+Private (__name): Double leading underscore; enforces name mangling to prevent direct access from outside the class.
+"""
